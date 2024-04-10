@@ -19,11 +19,12 @@ body{
     top: 200px;
     right: 20px;
 }
-.cafe{
+.cafe {
     position: absolute;
     top: 50px;
     right: 160px;
     transition: transform 0.3s ease-in-out;
+    animation: wobble 2s ease-in-out;
 }
 .cafe:hover{
     filter: opacity(0.9);
@@ -44,13 +45,13 @@ h1:hover{
     filter: opacity(0.9);
     transform: scale(1.04);
 }
-.flor{
+.flor {
     position: absolute;
-    top: 00px;
+    top: 0px;
     height: 280px;
     left: 230px;
+    animation: bajar 2s ease-in-out forwards;
 }
-
 
 .texto{
     margin: 200px;
@@ -108,6 +109,32 @@ h2{
 }
 #ultimo{
     margin-right: 10%;
+}
+
+@keyframes bajar {
+    0% {
+      top: -300px;
+    }
+    100% {
+      top: 0px;
+    }
+}
+@keyframes wobble {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    25% {
+      transform: rotate(-10deg) scale(1.04);
+    }
+    50% {
+      transform: rotate(0deg) scale(1);
+    }
+    75% {
+      transform: rotate(10deg) scale(1.04);
+    }
+    100% {
+      transform: rotate(0deg) scale(1);
+    }
 }
 
 /* PARA COMPUTADORES */
