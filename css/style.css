@@ -23,6 +23,26 @@ body{
     position: absolute;
     top: 50px;
     right: 160px;
+    transition: transform 0.3s ease-in-out;
+}
+.cafe:hover{
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+button:hover{
+    filter: opacity(0.9);
+    transform: scale(1.04);
+    color: rgb(232, 214, 217);
+    background-color: rgb(189, 122, 59);
+}
+h1:hover{
+    color: rgb(189, 122, 59);
+    transition: all 0.3s ease 0s;
+
+}
+.cadauno:hover{
+    filter: opacity(0.9);
+    transform: scale(1.04);
 }
 .flor{
     position: absolute;
@@ -51,6 +71,7 @@ button{
     border: none;
     border-radius: 50px;
     margin-top: 40px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .tabla{
@@ -66,6 +87,7 @@ button{
     border-radius: 75px 100px 100px 75px;
     width: 400px;
     justify-content: space-between;
+    transition: transform 0.3s ease-in-out;
 }
 .cadauno div{
     display: flex;
