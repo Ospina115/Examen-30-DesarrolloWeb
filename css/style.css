@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(232, 214, 217);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor{
+    display: flex;
+}
+.fondo{
+    position: absolute;
+    top:0px;
+    right: 0px;
+}
+.manchas{
+    position: absolute;
+    top: 200px;
+    right: 20px;
+}
+.cafe{
+    position: absolute;
+    top: 50px;
+    right: 160px;
+}
+.flor{
+    position: absolute;
+    top: 00px;
+    height: 280px;
+    left: 230px;
+}
+
+
+.texto{
+    margin: 200px;
+    margin-bottom: 100px;
+}
+h1{
+    font-size: 150px;
+}
+.texto p{
+    font-size: 35px;
+    margin-top: 20px;
+}
+button{
+    padding: 20px 40px;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+
+.tabla{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.cadauno{
+    display: flex;
+    background-color: white;
+    border-radius: 75px 100px 100px 75px;
+    width: 400px;
+    justify-content: space-between;
+}
+.cadauno div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 30px;
+}
+h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.cadauno p{
+    font-size: 20px;
+}
